@@ -51,7 +51,7 @@ def main():
     email_server_host = 'smtp.aliyun.com'
     email_server_port = 465
     username = 'wayne_lau@aliyun.com'
-    password = 'wslzw123ysdss,'
+    password = 'AAAAAAAAA'
     receivers = ['wayne.lau.gz@gmail.com', username]
     # receivers = ['liuzewen@yuansfer.com', username]
     # receivers = ['frankder.liu@gmail.com', username]
