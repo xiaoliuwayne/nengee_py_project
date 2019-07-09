@@ -53,9 +53,6 @@ def main():
     username = 'wayne_lau@aliyun.com'
     password = 'AAAAAAAAA'
     receivers = ['wayne.lau.gz@gmail.com', username]
-    # receivers = ['liuzewen@yuansfer.com', username]
-    # receivers = ['frankder.liu@gmail.com', username]
-    # receivers = ['mytest2019@163.com', username]
 
     msg_root = MIMEMultipart('related')
     msg_root['Subject'] = Header(u'发送邮件测试', 'utf-8')
